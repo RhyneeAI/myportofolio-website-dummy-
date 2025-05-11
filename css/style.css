@@ -162,7 +162,7 @@ section{
 
 .btn:hover{
     color: var(--text-color);
-    transform: scale(1.2) translateY(4px);
+    transform: scale(1.1) translateY(4px);
 }
 
 .btn2{
@@ -250,7 +250,7 @@ header.sticky a:hover {
     margin-bottom: 4rem;
 }
 
-.services{
+.expertise{
     background: var(--second-bg-color);
 }
 
@@ -269,7 +269,7 @@ header.sticky a:hover {
     line-height: 1;
 }
 
-.services-content{
+.expertise-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     align-items: center;
