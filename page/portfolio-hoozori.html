@@ -20,6 +20,7 @@
             align-items: center;
             gap: 1.5rem;
         }
+
     </style>
 </head>
 <body>
@@ -27,8 +28,11 @@
     <header>
         <a href="#" class="logo">Rhy<span>n</span>e.</a>
         <ul class="navlist">
-            <li><a href="../index.html" >Home</a></li>
-            <li><a href="#portofolio-detail" class="active">Portfolio</a></li>
+            <li><a href="../index.html" data-lang_id="nav-home">Home</a></li>
+            <li><a href="#portofolio-detail" class="active" data-lang_id="nav-portfolio">Portfolio</a></li>
+            <li><a class="nav-link"></a></li>
+            <!-- Changing Language can active via Launch this file on HTML Live Server -->
+            <li><a class="nav-link" id="lang-toggle" data-page="portfolio">EN</a></li>
         </ul>
         
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -42,16 +46,16 @@
                 <img src="../images/hoozori.png" alt="Project Image">
             </div>
             <div class="project-box">
-                <h4 class="subtitle">A mobile based attendance and payroll system designed for educational institutions</h4>
+                <h4 class="subtitle" data-lang_id="huzoori-subtitle">A mobile based attendance and payroll system designed for educational institutions</h4>
                 <div class="project-meta">
                     <span class="label-app">NodeJS + Express</span>
                     <span class="label-app">Flutter</span>
                     <span class="label-app">MongoDB</span>
                 </div>
-                <span class="project-date">Built : July 2024</span>
-                <span class="tech-used">Platform : Mobile App</span>
+                <span class="built-date" data-lang_id="huzoori-built-date">Built : July 2024</span>
+                <span class="platform" data-lang_id="huzoori-tech-used">Platform : Mobile App</span>
                 <br>
-                <div class="description">
+                <div class="description" data-lang_id="huzoori-description">
                     <p>Hoozori is a mobile-based attendance application developed in collaboration with a close colleague, specifically designed for the Islamic school (madrasah) where I currently teach. This project was initiated to replace the outdated manual attendance system, which relied on handwritten records and lacked accurate tracking of teacher punctuality or presence.</p>
                     <br>
                     <p>The core functionality of Hoozori is to streamline attendance management, but it goes further by integrating a payroll feature, locally referred to as "Ujroh" —which automatically calculates each teacher's compensation based on their attendance records and fixed monthly incentives. This ensures fair and transparent salary distribution without manual calculations.</p>

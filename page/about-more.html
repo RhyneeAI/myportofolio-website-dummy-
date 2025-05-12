@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -19,6 +19,14 @@
             align-items: center;
             gap: 1.5rem;
         }
+        .about-text p {
+            text-indent: 2em;
+            margin-bottom: 1em;
+        }
+        .about-text p:first-child,
+        .about-text p:last-child {
+            text-indent: 0;
+        }
     </style>
 </head>
 <body>
@@ -28,9 +36,9 @@
         <ul class="navlist">
             <li><a href="../index.html" >Home</a></li>
             <li><a href="#about" class="active">About Me</a></li>
-            <li><a href="#expertise">Expertise</a></li>
-            <li><a href="#portofolio">Portofolio</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+            <li><a class="nav-link"></a></li>
+            <!-- Changing Language can active via Launch this file on HTML Live Server -->
+            <li><a class="nav-link" id="lang-toggle" data-page="portfolio">EN</a></li>
         </ul>
         
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -40,27 +48,48 @@
     <!-- ABOUT SECTION -->
     <section class="about" id="about">
         <div class="about-text">
-            <h2>About <span>Me</span></h2>
+            <h2 data-lang_id="about-more-title">About <span>Me</span></h2>
             <br>
-            <p>
-                Hello everyone, my name is <strong>Luhung Lugina</strong>. <br><br>
-                I’m an Indonesian national currently working as a Fullstack Developer at a software house called Madtive Studio, where I also serve as a mentor for students undergoing internships. <br><br>
-                My journey into programming didn’t start with a clear plan. In fact, it all began when I wasn’t accepted into a scholarship program for a boarding school in Bogor. At the time, I was disappointed—but looking back, I realize that rejection was a turning point that unknowingly led me to where I am today. 
-                I got into this field when two of my friends suggested I enroll in a vocational high school (SMK), majoring in Software Engineering (Rekayasa Perangkat Lunak - RPL). Back then, I had no idea what the program entailed. I simply thought, “Well, maybe we’ll just disassemble computers and tinker with software.” <br><br>
-                Of course, it wasn’t that simple—not at all, LOL.... haha. <br><br>
-                In my first semester, I was completely lost. I was introduced to a whole new world: programming languages, syntax, logic... It was overwhelming. Like many beginners, I started with languages like Python or C++, and I quickly learned that coding is all about logic. Fortunately, I had always enjoyed math since junior high school, so that helped a bit. <br><br>
-                By the second and third semesters, we were introduced to web development—starting from HTML, CSS, and JavaScript, then gradually moving to PHP and databases. It wasn’t until I began my internship (PKL) that things truly clicked for me.<br><br>
-                At that time, I was suddenly expected to learn PHP with Laravel and Git—with only two weeks to get up to speed. It was intense, but it was during this period that I discovered my genuine interest in creating programs and applications. My internship was actually at Madtive Studio, the same company I work for now.<br><br>
-                I'm incredibly grateful to my mentor during that time, who constantly pushed me to keep learning. With nothing but YouTube tutorials from Web Programming UNPAS as my guide, I managed to grasp the fundamentals and complete my internship. My final project was a fully functional POS application, complete with data management, transactions, and reporting.<br><br>
-                After finishing my internship and returning to school in my final year, I was given the opportunity to join a national competition in web and mobile app development hosted by PT Traspac Makmur Sejahtera. I was tasked with developing an innovative, fully implemented app within just three months—on top of attending classes. My teacher suggested I build a POS (Point-of-sales) app with an integrated accounting system for a library. It was exhausting, but also incredibly rewarding.<br><br>
-                The competition consisted of just two rounds—and to my surprise, I won 3rd place. That moment became a major milestone for me; it was the first time I felt truly recognized in the world of programming.<br><br>
-                Since then, I’ve continued to learn, build apps, and even work on this portfolio website.
-                I could go on and on about my journey, but I think this is enough for now, haha.
-                I just want to say that I started as a clueless kid who didn’t even know what programming was. And somehow, I ended up falling in love with it—and making it my career.
-
-                Thank you for reading.
-            </p>
-            <a href="page/more-about.html" class="btn">More About</a>
+            <h4 data-lang_id="about-more-greeting">
+                Hello everyone, my name is <strong>Luhung Lugina</strong>.
+            </h4>
+            <div class="" data-lang_id="about-more-body">
+                <p>
+                    I’m an Indonesian national currently working as a Fullstack Developer at a software house called Madtive Studio, where I also serve as a mentor for students undergoing internships.
+                </p>
+                <p>
+                    My journey into programming didn’t start with a clear plan. In fact, it all began when I wasn’t accepted into a scholarship program for a boarding school in Bogor. At the time, I was disappointed—but looking back, I realize that rejection was a turning point that unknowingly led me to where I am today. I got into this field when two of my friends suggested I enroll in a vocational high school (SMK), majoring in Software Engineering (Rekayasa Perangkat Lunak - RPL). Back then, I had no idea what the program entailed. I simply thought, “Well, maybe we’ll just disassemble computers and tinker with software.”
+                </p>
+                <p>
+                    Of course, it wasn’t that simple—not at all, LOL.... haha.
+                </p>
+                <p>
+                    In my first semester, I was completely lost. I was introduced to a whole new world: programming languages, syntax, logic... It was overwhelming. Like many beginners, I started with languages like Python or C++, and I quickly learned that coding is all about logic. Fortunately, I had always enjoyed math since junior high school, so that helped a bit.
+                </p>
+                <p>
+                    By the second and third semesters, we were introduced to web development—starting from HTML, CSS, and JavaScript, then gradually moving to PHP and databases. It wasn’t until I began my internship (PKL) that things truly clicked for me.
+                </p>
+                <p>
+                    At that time, I was suddenly expected to learn PHP with Laravel and Git—with only two weeks to get up to speed. It was intense, but it was during this period that I discovered my genuine interest in creating programs and applications. My internship was actually at Madtive Studio, the same company I work for now.
+                </p>
+                <p>
+                    I'm incredibly grateful to my mentor during that time, who constantly pushed me to keep learning. With nothing but YouTube tutorials from Web Programming UNPAS as my guide, I managed to grasp the fundamentals and complete my internship. My final project was a fully functional POS application, complete with data management, transactions, and reporting.
+                </p>
+                <p>
+                    After finishing my internship and returning to school in my final year, I was given the opportunity to join a national competition in web and mobile app development hosted by PT Traspac Makmur Sejahtera. I was tasked with developing an innovative, fully implemented app within just three months—on top of attending classes. My teacher suggested I build a POS (Point-of-sales) app with an integrated accounting system for a library. It was exhausting, but also incredibly rewarding.
+                </p>
+                <p>
+                    The competition consisted of just two rounds—and to my surprise, I won 3rd place. That moment became a major milestone for me; it was the first time I felt truly recognized in the world of programming.
+                </p>
+                <p>
+                    Since then, I’ve continued to learn, build apps, and even work on this portfolio website. I could go on and on about my journey, but I think this is enough for now, haha. I just want to say that I started as a clueless kid who didn’t even know what programming was. And somehow, I ended up falling in love with it—and making it my career.
+                </p>
+                <p>
+                    Thank you for reading.
+                </p>
+            </div>
+            <br>
+            <a href="../index.html" class="btn" data-lang_id="about-more-button">Back to Home</a>
         </div>
     </section>
 

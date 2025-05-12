@@ -27,8 +27,11 @@
     <header>
         <a href="#" class="logo">Rhy<span>n</span>e.</a>
         <ul class="navlist">
-            <li><a href="../index.html" >Home</a></li>
-            <li><a href="#portofolio-detail" class="active">Portfolio</a></li>
+            <li><a href="../index.html" data-lang_id="nav-home">Home</a></li>
+            <li><a href="#portofolio-detail" class="active" data-lang_id="nav-portfolio">Portfolio</a></li>
+            <li><a class="nav-link"></a></li>
+            <!-- Changing Language can active via Launch this file on HTML Live Server -->
+            <li><a class="nav-link" id="lang-toggle" data-page="portfolio">EN</a></li>
         </ul>
         
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -42,17 +45,17 @@
                 <img src="../images/vismart-studio.png" alt="Project Image">
             </div>
             <div class="project-box">
-                <h4 class="subtitle">A company profile website developed to showcase digital product and branding capabilities</h4>
+                <h4 class="subtitle" data-lang_id="vismart-subtitle">A company profile website developed to showcase digital product and branding capabilities</h4>
                 <div class="project-meta">
                     <span class="label-app">Laravel</span>
                     <span class="label-app">Bootstrap</span>
                     <span class="label-app">VueJS</span>
                     <span class="label-app">MySQL</span>
                 </div>
-                <span class="project-date">Built : May 2022</span>
-                <span class="tech-used">Platform : Web App, Company Profile</span>
+                <span class="built-date" data-lang_id="vismart-built-date">Built : May 2022</span>
+                <span class="platform" data-lang_id="vismart-platform">Platform : Web App, Company Profile</span>
                 <br>
-                <div class="description">
+                <div class="description" data-lang_id="vismart-description">
                     <p>Vismart Studio is the second project I developed during my internship, as part of a team of three members including myself. The goal of this project was to design and build a web-based company profile for the organization where we were interning.</p>
                     <br>
                     <p>The website was created to showcase the company’s new digital products and services, aiming to increase its visibility and attract potential clients. While the company was primarily known for its software development capabilities, this platform was also intended to highlight its strengths in UI/UX design and branding.</p>

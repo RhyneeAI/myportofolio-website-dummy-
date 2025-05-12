@@ -1,0 +1,60 @@
+{
+    "nav-home": "Home",
+    "nav-about": "About Me",
+    "nav-expertise": "Expertise",
+    "nav-portfolio": "Portfolio",
+    "nav-contact": "Contact Me",
+    
+    "home-greeting1": "Hello",
+    "home-greeting2": "I'm",
+    "home-personal-summary": "A web developer with over 3 years of experience and still eager to learn more! <br> If you are looking for a backend developer, I am the right person for you.",
+
+    "about-title1": "About <span>Me</span>",
+    "about-subtitle": "Just someone who codes—<br> who might know he will become a coder?",
+    "about-body": "I'm Luhung Lugina. <br> I didn’t plan on being a programmer, but somehow it fits me best.",
+    "about-button": "About more...",
+
+    "about-more-title": "About <span>Me</span>",
+    "about-more-greeting": "Hello everyone, my name is <strong>Luhung Lugina</strong>.",
+    "about-more-body": "<p>I’m an Indonesian national currently working as a Fullstack Developer at a software house called Madtive Studio, where I also serve as a mentor for students undergoing internships.</p><p>My journey into programming didn’t start with a clear plan. In fact, it all began when I wasn’t accepted into a scholarship program for a boarding school in Bogor. At the time, I was disappointed—but looking back, I realize that rejection was a turning point that unknowingly led me to where I am today. I got into this field when two of my friends suggested I enroll in a vocational high school (SMK), majoring in Software Engineering (Rekayasa Perangkat Lunak - RPL). Back then, I had no idea what the program entailed. I simply thought, “Well, maybe we’ll just disassemble computers and tinker with software.”</p><p>Of course, it wasn’t that simple—not at all, LOL.... haha.</p><p>In my first semester, I was completely lost. I was introduced to a whole new world: programming languages, syntax, logic... It was overwhelming. Like many beginners, I started with languages like Python or C++, and I quickly learned that coding is all about logic. Fortunately, I had always enjoyed math since junior high school, so that helped a bit.</p><p>By the second and third semesters, we were introduced to web development—starting from HTML, CSS, and JavaScript, then gradually moving to PHP and databases. It wasn’t until I began my internship (PKL) that things truly clicked for me.</p><p>At that time, I was suddenly expected to learn PHP with Laravel and Git—with only two weeks to get up to speed. It was intense, but it was during this period that I discovered my genuine interest in creating programs and applications. My internship was actually at Madtive Studio, the same company I work for now.</p><p>I'm incredibly grateful to my mentor during that time, who constantly pushed me to keep learning. With nothing but YouTube tutorials from Web Programming UNPAS as my guide, I managed to grasp the fundamentals and complete my internship. My final project was a fully functional POS application, complete with data management, transactions, and reporting.</p><p>After finishing my internship and returning to school in my final year, I was given the opportunity to join a national competition in web and mobile app development hosted by PT Traspac Makmur Sejahtera. I was tasked with developing an innovative, fully implemented app within just three months—on top of attending classes. My teacher suggested I build a POS (Point-of-sales) app with an integrated accounting system for a library. It was exhausting, but also incredibly rewarding.</p><p>The competition consisted of just two rounds—and to my surprise, I won 3rd place. That moment became a major milestone for me; it was the first time I felt truly recognized in the world of programming.</p><p>Since then, I’ve continued to learn, build apps, and even work on this portfolio website. I could go on and on about my journey, but I think this is enough for now, haha. I just want to say that I started as a clueless kid who didn’t even know what programming was. And somehow, I ended up falling in love with it—and making it my career.</p><p>Thank you for reading.</p>",
+    "about-more-button": "Back to Home",
+
+    "expertise-title1": "What I Do",
+    "expertise-title2": "<span>My</span> Expertise",
+    "expertise-web-title": "Web <br> Developer",
+    "expertise-web-body": "Building responsive and scalable websites using modern web technologies such as HTML, CSS, JavaScript, and PHP (Laravel).",
+    "expertise-nodejs-title": "Node.js Developer (Newbie)",
+    "expertise-nodejs-body": "Learning to build server-side applications using Node.js and Express, focusing on backend logic and API integration.",
+    "expertise-restapi-body": "Designing and consuming RESTful APIs to connect front-end and back-end systems or Android apps, enabling smooth data exchange across platforms.",
+
+    "portfolio-title1": "Portfolio",
+    "portfolio-title2": "<span>Latest</span> Project",
+    "portfolio-web": "Web App",
+    "portfolio-web-company": "Web Company Profile",
+    "portfolio-mobile": "Mobile App",
+
+    "huzoori-subtitle": "A mobile based attendance and payroll system designed for educational institutions",
+    "huzoori-built-date": "Built : July 2024",
+    "huzoori-tech-used": "Platform : Mobile App",
+    "huzoori-description": "<p>Hoozori is a mobile-based attendance application developed in collaboration with a close colleague, specifically designed for the Islamic school (madrasah) where I currently teach. This project was initiated to replace the outdated manual attendance system, which relied on handwritten records and lacked accurate tracking of teacher punctuality or presence.</p><br><p>The core functionality of Hoozori is to streamline attendance management, but it goes further by integrating a payroll feature, locally referred to as \"Ujroh\" —which automatically calculates each teacher's compensation based on their attendance records and fixed monthly incentives. This ensures fair and transparent salary distribution without manual calculations.</p><br><p>Additionally, the app includes a teaching schedule module that allows administrators to assign and manage class schedules for every teacher. A comprehensive reporting feature is also available, enabling admins to review and export attendance summaries, salary data, and scheduling information with ease.</p>",
+
+    "vismart-subtitle": "A company profile website developed to showcase digital product and branding capabilities",
+    "vismart-built-date": "Built : May 2022",
+    "vismart-platform": "Platform : Web App, Company Profile",
+    "vismart-description": "<p>Vismart Studio is the second project I developed during my internship, as part of a team of three members including myself. The goal of this project was to design and build a web-based company profile for the organization where we were interning.</p><br><p>The website was created to showcase the company’s new digital products and services, aiming to increase its visibility and attract potential clients. While the company was primarily known for its software development capabilities, this platform was also intended to highlight its strengths in UI/UX design and branding.</p><br><p>Through Vismart Studio, we demonstrated that the company not only develops robust applications, but also offers complete visual and branding solutions, whether for newly launched products or for enhancing the identity of existing applications.</p>",
+
+    "ziepos-subtitle": "A web based Point of Sales built with Laravel",
+    "ziepos-built-date": "Built : February 2023",
+    "ziepos-platform": "Platform : Web App",
+    "ziepos-description": "<p>Point of Sale (POS) systems like ZiePOS are essential tools for modern businesses to streamline transaction processing and manage inventory efficiently. ZiePOS stands out from typical POS applications by offering more than just basic sales features.</p><br><p>ZiePOS provides a comprehensive suite of tools not only for sales transactions—its core function—but also for accounting, including cash flow management, stock opname (inventory audits), and more. The platform includes in-depth reporting capabilities such as daily sales reports, purchase transactions, product inflow and outflow, and detailed inventory summaries.</p><br><p>One of ZiePOS's key strengths is its accessibility. It is fully responsive and works seamlessly across all devices—desktops, tablets, and smartphones—ensuring that users can access the system anytime, anywhere.</p><br><p>ZiePOS is available under three usage plans :</p><ul><li><strong>Free Plan </strong><br> 1-month trial period, limited to 10 transactions per day. Ideal for trying out core features.</li><li><strong>Plus Plan </strong><br> Increases daily transaction limit to 100. Suitable for small businesses needing more operational capacity at an affordable cost.</li><li><strong>Pro Plan </strong><br> Removes all transaction limits. Best for growing businesses with high transaction volumes, providing full access to all features.</li></ul>",
+
+    "sipaju-subtitle": "A public street lighting report and monitoring system for DISHUB Cianjur",
+    "sipaju-built-date": "Built : June 2023",
+    "sipaju-platform": "Platform : Web App",
+    "sipaju-description": "<p><strong>SIPAJU (Sistem Informasi Penerangan Jalan Umum)</strong> is a web-based application developed collaboratively by me and a colleague. It was built specifically for the Department of Transportation (*DISHUB*) in Cianjur as a digital solution to improve the monitoring and reporting of street lighting infrastructure.</p><br><p>SIPAJU is designed to assist administrators in tracking public reports regarding streetlights that are malfunctioning, missing, damaged, or even stolen. Each lamp post is equipped with a unique QR code. When scanned, this QR code directs the user to a reporting form that is pre-filled with the corresponding lamp post's location data, allowing for faster and more accurate issue submission.</p><br><p>Alternatively, if the QR code is unavailable, users can still submit reports manually by visiting the official SIPAJU website at <a href=\"https://sipaju.cianjurkab.go.id\" target=\"_blank\">sipaju.cianjurkab.go.id</a> and navigating to the <strong>\"Pelaporan Pengaduan\"</strong> section. There, users can fill out a complaint form with the necessary information about the issue.</p><br><p>After submitting a report, users will receive a unique referral code. This code can be used to track the status of their complaint through the search feature on the website, where detailed progress updates are displayed.<p>",
+
+    "contact-title1": "Contact <span>Me!</span>",
+    "contact-subtitle": "If You Have Any Project That You Want to Create.",
+    "contact-body": "I'm a Backend Developer - Build and maintain the mechanisms that process data and perform actions on websites. Involved in data storage, security, and other server-side functions that you cannot see.",
+    "contact-thanks": "Thank You For Visiting"
+}

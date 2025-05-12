@@ -52,6 +52,8 @@ span{
 
 .navlist{
     display: flex;
+    margin-right: -5rem;
+    align-items: end;
 }
 
 .navlist a{
@@ -229,7 +231,7 @@ header.sticky a:hover {
 }
 
 .about-img img{
-    max-width: 490px;
+    max-width: 400px;
     height: auto;
     width: 100%;
     border-radius: 15px;

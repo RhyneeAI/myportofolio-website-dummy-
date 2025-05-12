@@ -17,15 +17,16 @@
     <header>
         <a href="#" class="logo">Rhy<span>y</span></a>
         <ul class="navlist">
-            <li><a href="#home" class="nav-link" data-en="Home" data-id="Beranda">Home</a></li>
-            <li><a href="#about" class="nav-link" data-en="About Me" data-id="Tentang Saya">About Me</a></li>
-            <li><a href="#expertise" class="nav-link" data-en="Expertise" data-id="Keahlian">Expertise</a></li>
-            <li><a href="#portfolio" class="nav-link" data-en="Portfolio" data-id="Portofolio">Portfolio</a></li>
-            <li><a href="#contact" class="nav-link" data-en="Contact Me" data-id="Hubungi Saya">Contact Me</a></li>
+            <li><a href="#home" class="nav-link" data-lang_id="nav-home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-lang_id="nav-about">About Me</a></li>
+            <li><a href="#expertise" class="nav-link" data-lang_id="nav-expertise">Expertise</a></li>
+            <li><a href="#portfolio" class="nav-link" data-lang_id="nav-portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link" data-lang_id="nav-contact">Contact Me</a></li>
+            <li><a class="nav-link"></a></li>
+            <!-- Changing Language can active via Launch this file on HTML Live Server -->
+            <li><a class="nav-link" id="lang-toggle" data-page="home">EN</a></li>
         </ul>
      
-        <li><a class="nav-link">ID</a></li>
-    
         <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
@@ -33,13 +34,16 @@
     <section class="home" id="home">
         <div class="home-text">
             <div class="slide">
-                <span class="one">Hello</span>
-                <span class="two">I'm</span>
+                <span class="one" data-lang_id="home-greeting1">Hello</span>
+                <span class="two" data-lang_id="home-greeting2">I'm</span>
             </div>
             <h1>Luhung Lugina</h1>
             <h3>Backend <span>Developer.</span></h3>
-            <p>Backend developer with 3+ year experience and still in advanced learning stage, <br>
-            Looking for a job that makes me better at this.</p>
+            <p data-lang_id="home-personal-summary">
+                Backend developer with 3+ year experience and still in advanced learning stage!
+                <br>
+                If you are looking for a backend developer, I am the right person for you.
+            </p>
             <!-- <div class="button">
                 <a href="#" class="btn">Say Hello</a>
                 <a href="#" class="btn2">
@@ -53,22 +57,22 @@
     <!-- ABOUT SECTION -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="img/about.jpg" alt="">
+            <img src="images/about.png" alt="" height="200">
         </div>
 
         <div class="about-text">
-            <h2>About <span>Me</span></h2>
-            <h4>Just someone who codes— <br>know that he will be a coder?</h4>
-            <p>I'm Luhung Lugina. <br> I didn’t plan on being a programmer, but I realized it’s what fits me best.</p>
-            <a href="page/about-more.html" class="btn">About more ...</a>
+            <h2 data-lang_id="about-title1">About <span data-lang_id="about-title2">Me</span></h2>
+            <h4 data-lang_id="about-subtitle">Just someone who codes— <br>know that he will be a coder?</h4>
+            <p data-lang_id="about-body">I'm Luhung Lugina. <br> I didn’t plan on being a programmer, but I realized it’s what fits me best.</p>
+            <a href="page/about-more.html" class="btn" data-lang_id="about-button">About more ...</a>
         </div>
     </section>
 
     <!-- EXPERTISES SECTION -->
     <section class="expertise" id="expertise">
         <div class="main-text">
-            <p>What I Do</p>
-            <h2><span>My</span> Expertise</h2>
+            <p data-lang_id="expertise-title1">What I Do</p>
+            <h2 data-lang_id="expertise-title2"><span>My</span> Expertise</h2>
         </div>
 
         <div class="expertise-content">
@@ -76,8 +80,8 @@
                 <div class="s-icons">
                     <i class='bx bx-laptop'></i>
                 </div>
-                <h3>Web <br> Developer</h3>
-                <p>Building responsive and scalable websites using modern web technologies such as HTML, CSS, JavaScript, and PHP (Laravel).</p>
+                <h3 data-lang_id="expertise-web-title">Web <br> Developer</h3>
+                <p data-lang_id="expertise-web-body">Building responsive and scalable websites using modern web technologies such as HTML, CSS, JavaScript, and PHP (Laravel).</p>
                 <!-- <a href="#" class="read">Read More...</a> -->
             </div>
 
@@ -85,8 +89,8 @@
                 <div class="s-icons">
                     <i class="bx bx-code-alt"></i>
                 </div>
-                <h3>Node.js Dev (Newbie)</h3>
-                <p>Learning to build server-side applications using Node.js and Express, focusing on backend logic and API integration.</p>
+                <h3 data-lang_id="expertise-nodejs-title">Node.js Developer (Learn)</h3>
+                <p data-lang_id="expertise-nodejs-body">Learning to build server-side applications using Node.js and Express, focusing on backend logic and API integration.</p>
                 <!-- <a href="#" class="read">Read More...</a> -->
             </div>
 
@@ -95,7 +99,7 @@
                     <i class='bx bx-analyse'></i>
                 </div>
                 <h3>REST API</h3><br>
-                <p>Designing and consuming RESTful APIs to connect front-end and back-end systems or an android app, enabling smooth data exchange across platforms.</p>
+                <p data-lang_id="expertise-restapi-body">Designing and consuming RESTful APIs to connect front-end and back-end systems or an android app, enabling smooth data exchange across platforms.</p>
                 <!-- <a href="#" class="read">Read More...</a> -->
             </div>
         </div>
@@ -105,8 +109,8 @@
     <!-- PORTFOLIO SECTION -->
     <section class="portfolio" id="portfolio">
         <div class="main-text">
-            <p>Portfolio</p>
-            <h2><span>Latest</span> Project</h2>
+            <p data-lang_id="portfolio-title1">Portfolio</p>
+            <h2 data-lang_id="portfolio-title2"><span>Latest</span> Project</h2>
         </div>
 
         <div class="portfolio-content">
@@ -114,7 +118,7 @@
                 <img src="images/ziepos.png" alt="">
                 <div class="layer">
                     <h5>ZiePOS</h5>
-                    <p>Web App</p>
+                    <p data-lang_id="portfolio-web">Web App</p>
                     <a href="page/portfolio-ziepos.html"><i class='bx bx-link-alt'></i></a>
                 </div>
             </div>
@@ -123,7 +127,7 @@
                 <img src="images/vismart-studio.png" alt="">
                 <div class="layer">
                     <h5>Vismart Studio</h5>
-                    <p>Web Company Profile</p>
+                    <p data-lang_id="portfolio-web-company">Web Company Profile</p>
                     <a href="page/portfolio-vismart.html"><i class='bx bx-link-alt'></i></a>
                 </div>
             </div>
@@ -132,7 +136,7 @@
                 <img src="images/hoozori.png" alt="">
                 <div class="layer">
                     <h5>Hoozori</h5>
-                    <p>Mobile App</p>
+                    <p data-lang_id="portfolio-mobile">Mobile App</p>
                     <a href="page/portfolio-hoozori.html"><i class='bx bx-link-alt'></i></a>
                 </div>
             </div>
@@ -141,7 +145,7 @@
                 <img src="images/sipaju.png" alt="">
                 <div class="layer">
                     <h5>SIPAJU</h5>
-                    <p>Web App</p>
+                    <p data-lang_id="portfolio-web">Web App</p>
                     <a href="page/portfolio-sipaju.html"><i class='bx bx-link-alt'></i></a>
                 </div>
             </div>
@@ -151,13 +155,13 @@
     <!-- CONTACT SECTION -->
     <section class="contact" id="contact">
         <div class="contact-text">
-            <h2>Contact <span>Me!</span></h2>
-            <h4>If You Have Any Project That You Wan't to Create It.</h4>
-            <p>I'm a Backend Developer - Build and maintain the mechanisms that process data and perform actions on websites. involved in data storage, security, and other server-side functions that you cannot see.</p>
+            <h2 data-lang_id="contact-title1">Contact <span>Me!</span></h2>
+            <h4 data-lang_id="contact-subtitle">If You Have Any Project That You Wan't to Create It.</h4>
+            <p data-lang_id="contact-body">I'm a Backend Developer - Build and maintain the mechanisms that process data and perform actions on websites. involved in data storage, security, and other server-side functions that you cannot see.</p>
             <div class="list">
                 <li><a href="#">+62 821-1835-6193</a></li>
                 <li><a href="#">luhung.tea@gmail.com</a></li>
-                <li><a href="#">Thank You For Visiting</a></li>
+                <li><a href="#" data-lang_id="contact-thanks">Thank You For Visiting</a></li>
             </div>
 
             <div class="contact-icons">

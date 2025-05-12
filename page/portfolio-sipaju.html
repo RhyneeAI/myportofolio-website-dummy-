@@ -27,8 +27,11 @@
     <header>
         <a href="#" class="logo">Rhy<span>n</span>e.</a>
         <ul class="navlist">
-            <li><a href="../index.html" >Home</a></li>
-            <li><a href="#portofolio-detail" class="active">Portfolio</a></li>
+            <li><a href="../index.html" data-lang_id="nav-home">Home</a></li>
+            <li><a href="#portofolio-detail" class="active" data-lang_id="nav-portfolio">Portfolio</a></li>
+            <li><a class="nav-link"></a></li>
+            <!-- Changing Language can active via Launch this file on HTML Live Server -->
+            <li><a class="nav-link" id="lang-toggle" data-page="portfolio">EN</a></li>
         </ul>
         
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -42,17 +45,17 @@
                 <img src="../images/sipaju.png" alt="Project Image">
             </div>
             <div class="project-box">
-                <h4 class="subtitle">A public street lighting report and monitoring system for DISHUB Cianjur</h4>
+                <h4 class="subtitle" data-lang_id="sipaju-subtitle">A public street lighting report and monitoring system for DISHUB Cianjur</h4>
                 <div class="project-meta">
                     <span class="label-app">Laravel</span>
                     <span class="label-app">JQuery</span>
                     <span class="label-app">Bootstrap</span>
                     <span class="label-app">MYQL</span>
                 </div>
-                <span class="project-date">Built : June 2023</span>
-                <span class="tech-used">Platform : Web App</span>
+                <span class="built-date" data-lang_id="sipaju-built-date">Built : June 2023</span>
+                <span class="platform" data-lang_id="sipaju-platform">Platform : Web App</span>
                 <br>
-                <div class="description">
+                <div class="description" data-lang_id="sipaju-description">
                     <p><strong>SIPAJU (Sistem Informasi Penerangan Jalan Umum)</strong> is a web-based application developed collaboratively by me and a colleague. It was built specifically for the Department of Transportation (*DISHUB*) in Cianjur as a digital solution to improve the monitoring and reporting of street lighting infrastructure.</p>
                     <br>
                     <p>SIPAJU is designed to assist administrators in tracking public reports regarding streetlights that are malfunctioning, missing, damaged, or even stolen. Each lamp post is equipped with a unique QR code. When scanned, this QR code directs the user to a reporting form that is pre-filled with the corresponding lamp post's location data, allowing for faster and more accurate issue submission.</p>

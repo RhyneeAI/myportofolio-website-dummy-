@@ -1,9 +1,38 @@
 $(document).ready(function() {
-    $(window).on("scroll", function() {
-        if ($(this).scrollTop() > 100) {
-            $("header").addClass("sticky");
+    function loadTranslations(lang, page) {
+        let path;
+        if (page == 'portfolio') {
+            path = `../lang/${lang}.json`;
         } else {
-            $("header").removeClass("sticky");
+            path = `lang/${lang}.json`;
+        }
+        $.getJSON(path, function(translations) {
+            console.log(translations);
+            
+            $('[data-lang_id]').each(function() {
+                const langId = $(this).data('lang_id');
+                if (translations[langId]) {
+                    $(this).html(translations[langId]);
+                }
+            });
+        });
+    }
+
+    let currentLang = 'en';
+    
+    loadTranslations(currentLang);
+    $(document).on('click', '#lang-toggle', function() {
+        let page = $(this).data('page') ;
+        currentLang = currentLang == 'en' ? 'id' : 'en';
+        $(this).text(currentLang.toUpperCase()); 
+        loadTranslations(currentLang, page);
+    });
+
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 100) {
+            $('header').addClass('sticky');
+        } else {
+            $('header').removeClass('sticky');
         }
 
         $('#menu-icon').removeClass('bx-x');

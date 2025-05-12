@@ -1,0 +1,60 @@
+{
+    "nav-home": "Beranda",
+    "nav-about": "Tentang Saya",
+    "nav-expertise": "Keahlian",
+    "nav-portfolio": "Portofolio",
+    "nav-contact": "Kontak Saya",
+    
+    "home-greeting1": "Halo",
+    "home-greeting2": "Saya",
+    "home-personal-summary": "Seorang pengembang web dengan pengalaman lebih dari 3 tahun dan masih ingin belajar lebih banyak! <br> Jika Anda mencari pengembang backend, sayalah orang yang tepat untuk Anda.",
+
+    "about-title1": "Tentang <span>Saya</span>",
+    "about-subtitle": "Hanya seorang tukang ngoding-<br> yang mungkin tau bahwa dirinya akan menjadi seorang tukang ngoding?",
+    "about-body": "Saya Luhung Lugina. <br> Tidak berencana untuk menjadi seorang programmer, tapi entah kenapa ini cocok dengan saya.",
+    "about-button": "Tentang lainnya...",
+
+    "about-more-title": "Tentang <span>Saya</span>",
+    "about-more-greeting": "Halo semuanya, nama saya <strong>Luhung Lugina</strong>.",
+    "about-more-body": "<p>Saya adalah warga negara Indonesia yang saat ini bekerja sebagai Fullstack Developer di sebuah software house bernama Madtive Studio, di mana saya juga menjadi mentor bagi siswa magang.</p><p>Perjalanan saya ke dunia pemrograman tidak dimulai dengan rencana yang jelas. Sebenarnya, semuanya bermula ketika saya tidak diterima dalam program beasiswa untuk sebuah pesantren di Bogor. Saat itu saya kecewa—namun kini saya sadar, penolakan itu adalah titik balik yang tanpa saya sadari membawa saya ke tempat saya sekarang. Saya masuk ke bidang ini ketika dua teman saya menyarankan untuk masuk SMK jurusan Rekayasa Perangkat Lunak (RPL). Saat itu, saya benar-benar tidak tahu apa itu RPL. Saya hanya berpikir, “Mungkin nanti kita bongkar komputer dan utak-atik software.”</p><p>Tentu saja, ternyata tidak sesederhana itu—sama sekali tidak, haha.</p><p>Di semester pertama, saya benar-benar bingung. Saya diperkenalkan pada dunia baru: bahasa pemrograman, sintaks, logika... Semuanya terasa berat. Seperti banyak pemula, saya mulai dengan bahasa seperti Python atau C++, dan saya cepat belajar bahwa ngoding itu soal logika. Untungnya, saya memang suka matematika sejak SMP, jadi itu cukup membantu.</p><p>Di semester kedua dan ketiga, kami mulai belajar web development—mulai dari HTML, CSS, dan JavaScript, lalu perlahan ke PHP dan database. Tapi baru saat PKL semuanya benar-benar terasa nyambung.</p><p>Waktu itu, saya tiba-tiba harus belajar PHP dengan Laravel dan Git—dan hanya punya waktu dua minggu untuk menyesuaikan diri. Berat, tapi justru di masa itu saya menemukan minat sejati dalam membuat program dan aplikasi. Tempat PKL saya adalah Madtive Studio, tempat saya bekerja sekarang.</p><p>Saya sangat berterima kasih pada mentor saya waktu itu, yang selalu mendorong saya untuk terus belajar. Bermodal tutorial YouTube dari Web Programming UNPAS, saya akhirnya bisa memahami dasar-dasarnya dan menyelesaikan PKL. Proyek akhirnya adalah aplikasi POS yang sudah lengkap, mulai dari manajemen data, transaksi, hingga laporan.</p><p>Setelah PKL dan kembali ke sekolah di tahun terakhir, saya mendapat kesempatan ikut lomba nasional pengembangan web dan mobile app yang diadakan PT Traspac Makmur Sejahtera. Saya ditugaskan membuat aplikasi inovatif yang benar-benar berjalan dalam waktu tiga bulan—di sela-sela sekolah. Guru saya menyarankan membuat aplikasi POS dengan sistem akuntansi untuk perpustakaan. Capek, tapi sangat memuaskan.</p><p>Lombanya hanya dua babak—dan ternyata saya dapat juara 3. Itu jadi tonggak penting buat saya; pertama kalinya saya merasa benar-benar diakui di dunia pemrograman.</p><p>Sejak itu, saya terus belajar, membangun aplikasi, bahkan mengerjakan website portofolio ini. Sebenarnya masih banyak cerita, tapi cukup sampai di sini dulu, haha. Intinya, saya mulai dari anak yang benar-benar tidak tahu apa itu pemrograman. Tapi akhirnya jatuh cinta dan menjadikannya karier.</p><p>Terima kasih sudah membaca.</p>",
+    "about-more-button": "Kembali ke Beranda",
+
+    "expertise-title1": "Apa yang Saya Lakukan",
+    "expertise-title2": "Keahlian <span>Saya</span>",
+    "expertise-web-title": "Pengembang <br> Web",
+    "expertise-web-body": "Membangun situs web yang responsif dan skalabel menggunakan teknologi web modern seperti HTML, CSS, JavaScript, dan PHP (Laravel).",
+    "expertise-nodejs-title": "Pengembang Node.js (Pemula)",
+    "expertise-nodejs-body": "Belajar membangun aplikasi sisi server menggunakan Node.js dan Express, dengan fokus pada logika backend dan integrasi API.",
+    "expertise-restapi-body": "Merancang dan menggunakan RESTful API untuk menghubungkan sistem front-end dan back-end atau aplikasi Android, memungkinkan pertukaran data yang lancar di berbagai platform.",
+
+    "portfolio-title1": "Portofolio",
+    "portfolio-title2": "Proyek <span>Terbaru</span>",
+    "portfolio-web": "Aplikasi Web",
+    "portfolio-web-company": "Profil Perusahaan Web",
+    "portfolio-mobile": "Aplikasi Mobile",
+
+    "contact-title1": "Kontak <span>Saya!</span>",
+    "contact-subtitle": "Jika Anda Memiliki Proyek yang Ingin Anda Buat.",
+    "contact-body": "Saya seorang Pengembang Backend - Membangun dan memelihara mekanisme yang memproses data dan melakukan tindakan di situs web. Terlibat dalam penyimpanan data, keamanan, dan fungsi sisi server lainnya yang tidak dapat Anda lihat.",
+    "contact-thanks": "Terima Kasih Telah Berkunjung",
+
+    "huzoori-subtitle": "Sistem absensi dan penggajian berbasis mobile yang dirancang untuk institusi pendidikan",
+    "huzoori-built-date": "Dibuat : Juli 2024",
+    "huzoori-tech-used": "Platform : Aplikasi Mobile",
+    "huzoori-description": "<p>Hoozori adalah aplikasi absensi berbasis mobile yang dikembangkan bersama rekan dekat, khusus untuk madrasah tempat saya mengajar. Proyek ini dibuat untuk menggantikan sistem absensi manual yang sudah usang, yang masih menggunakan catatan tulisan tangan dan tidak mampu memantau kehadiran atau ketepatan waktu guru secara akurat.</p><br><p>Fitur utama Hoozori adalah mempermudah manajemen absensi, namun juga terintegrasi dengan fitur penggajian (disebut \"Ujroh\") yang secara otomatis menghitung kompensasi guru berdasarkan data kehadiran dan insentif bulanan tetap. Ini memastikan distribusi gaji yang adil dan transparan tanpa perhitungan manual.</p><br><p>Selain itu, aplikasi ini memiliki modul jadwal mengajar untuk admin dalam mengatur jadwal kelas setiap guru. Fitur laporan lengkap juga tersedia, sehingga admin dapat meninjau dan mengekspor rekap absensi, data gaji, dan informasi jadwal dengan mudah.</p>",
+
+    "vismart-subtitle": "Website profil perusahaan yang dikembangkan untuk menampilkan produk digital dan kemampuan branding",
+    "vismart-built-date": "Dibuat : Mei 2022",
+    "vismart-platform": "Platform : Aplikasi Web, Profil Perusahaan",
+    "vismart-description": "<p>Vismart Studio adalah proyek kedua yang saya kembangkan selama magang, bersama tim yang terdiri dari tiga orang termasuk saya sendiri. Tujuan proyek ini adalah merancang dan membangun profil perusahaan berbasis web untuk organisasi tempat kami magang.</p><br><p>Website ini dibuat untuk menampilkan produk dan layanan digital terbaru perusahaan, dengan harapan dapat meningkatkan visibilitas dan menarik klien potensial. Meskipun perusahaan dikenal sebagai pengembang perangkat lunak, platform ini juga bertujuan menonjolkan keunggulan dalam desain UI/UX dan branding.</p><br><p>Melalui Vismart Studio, kami menunjukkan bahwa perusahaan tidak hanya mengembangkan aplikasi yang andal, tetapi juga menawarkan solusi visual dan branding lengkap, baik untuk produk baru maupun memperkuat identitas aplikasi yang sudah ada.</p>",
+
+    "ziepos-subtitle": "Aplikasi Point of Sales berbasis web yang dibangun dengan Laravel",
+    "ziepos-built-date": "Dibuat : Februari 2023",
+    "ziepos-platform": "Platform : Aplikasi Web",
+    "ziepos-description": "<p>Sistem Point of Sale (POS) seperti ZiePOS adalah alat penting bagi bisnis modern untuk mempercepat proses transaksi dan mengelola inventaris secara efisien. ZiePOS berbeda dari aplikasi POS biasa karena menawarkan lebih dari sekadar fitur penjualan dasar.</p><br><p>ZiePOS menyediakan rangkaian alat lengkap tidak hanya untuk transaksi penjualan—fungsi utamanya—tetapi juga untuk akuntansi, termasuk manajemen arus kas, stok opname, dan lainnya. Platform ini juga memiliki fitur laporan mendalam seperti laporan penjualan harian, transaksi pembelian, keluar-masuk produk, dan rekap inventaris detail.</p><br><p>Salah satu keunggulan utama ZiePOS adalah aksesibilitasnya. ZiePOS sepenuhnya responsif dan dapat digunakan di semua perangkat—desktop, tablet, maupun smartphone—sehingga pengguna dapat mengakses sistem kapan saja dan di mana saja.</p><br><p>ZiePOS tersedia dalam tiga paket penggunaan :</p><ul><li><strong>Paket Gratis </strong><br> Masa percobaan 1 bulan, dibatasi 10 transaksi per hari. Cocok untuk mencoba fitur inti.</li><li><strong>Paket Plus </strong><br> Batas transaksi harian naik menjadi 100. Cocok untuk usaha kecil yang butuh kapasitas lebih dengan biaya terjangkau.</li><li><strong>Paket Pro </strong><br> Tanpa batas transaksi. Cocok untuk bisnis berkembang dengan volume transaksi tinggi, akses penuh ke semua fitur.</li></ul>",
+
+    "sipaju-subtitle": "Sistem pelaporan dan monitoring penerangan jalan umum untuk DISHUB Cianjur",
+    "sipaju-built-date": "Dibuat : Juni 2023",
+    "sipaju-platform": "Platform : Aplikasi Web",
+    "sipaju-description": "<p><strong>SIPAJU (Sistem Informasi Penerangan Jalan Umum)</strong> adalah aplikasi berbasis web yang dikembangkan bersama rekan saya. Aplikasi ini dibuat khusus untuk Dinas Perhubungan (DISHUB) Cianjur sebagai solusi digital untuk meningkatkan monitoring dan pelaporan infrastruktur lampu jalan.</p><br><p>SIPAJU dirancang untuk membantu admin dalam melacak laporan masyarakat terkait lampu jalan yang rusak, hilang, atau dicuri. Setiap tiang lampu dilengkapi QR code unik. Saat dipindai, QR code ini mengarahkan pengguna ke formulir pelaporan yang sudah terisi data lokasi tiang lampu, sehingga pelaporan masalah menjadi lebih cepat dan akurat.</p><br><p>Jika QR code tidak tersedia, pengguna tetap bisa melapor secara manual melalui website resmi SIPAJU di <a href=\"https://sipaju.cianjurkab.go.id\" target=\"_blank\">sipaju.cianjurkab.go.id</a> pada bagian <strong>\"Pelaporan Pengaduan\"</strong>. Di sana, pengguna dapat mengisi formulir pengaduan sesuai masalah yang ditemukan.</p><br><p>Setelah laporan dikirim, pengguna akan menerima kode referensi unik. Kode ini dapat digunakan untuk memantau status pengaduan melalui fitur pencarian di website, di mana perkembangan penanganan ditampilkan secara detail.</p>"
+}

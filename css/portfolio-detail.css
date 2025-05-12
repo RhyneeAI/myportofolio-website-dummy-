@@ -69,8 +69,8 @@
     display: inline-block;
 }
 
-.project-date,
-.tech-used {
+.built-date,
+.platform {
     display: block;
     font-size: var(--sm-font);
     color: var(--second-color);
