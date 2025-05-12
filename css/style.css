@@ -70,6 +70,10 @@ span{
     color: var(--main-color);
 }
 
+.nav-link:hover {
+    cursor: pointer;
+}
+
 #menu-icon {
     font-size: 35px;
     color: var(--text-color);
@@ -327,11 +331,11 @@ header.sticky a:hover {
     cursor: pointer;
 }
 
-.portofolio-content{
+.portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-top: 5rem;
 }
 
@@ -536,6 +540,38 @@ header.sticky a:hover {
     font-size: 15px;
     color: var(--text-color);
     background: var(--main-color);
+}
+
+/* Styling for the scroll-to-top button */
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.top a {
+    display: inline-block;
+    background-color: var(--main-color); 
+    color: white;
+    padding: 12px;
+    border-radius: 25%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.top a:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.top i {
+    font-size: 24px;
+}
+
+.top a:focus {
+    outline: none;
 }
 
 @media(max-width: 1340px) 

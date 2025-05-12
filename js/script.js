@@ -1,19 +1,32 @@
+$(document).ready(function() {
+    $(window).on("scroll", function() {
+        if ($(this).scrollTop() > 100) {
+            $("header").addClass("sticky");
+        } else {
+            $("header").removeClass("sticky");
+        }
 
-const header = document.querySelector("header");
-window.addEventListener("scroll", function(){
-    header.classList.toggle("sticky", window.scrollY > 100);
+        $('#menu-icon').removeClass('bx-x');
+        $('.navlist').removeClass('open');
+    });
+
+    $('#menu-icon').on('click', function() {
+        $(this).toggleClass('bx-x');
+        $('.navlist').toggleClass('open');
+    });
+
+    $('.top').hide();
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 500) {
+            $('.top').fadeIn();
+        } else {
+            $('.top').fadeOut();
+        }
+    });
+
+    $('.top a').click(function(e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 1 }, 200);
+    });
 });
-
-let menu = document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
-
-menu.onClick = () => {
-    menu.classList.toggle('bx-x');
-    navlist.classList.toggle('open');
-};
-
-window.onscroll = () => {
-    menu.classList.remove('bx-x');
-    navlist.classList.remove('open');
-};
-

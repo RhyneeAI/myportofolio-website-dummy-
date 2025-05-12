@@ -1,0 +1,166 @@
+:root {
+    --bg-color: #2a2a2a;
+    --second-bg-color: #202020;
+    --text-color: #fff;
+    --second-color: #ccc;
+    --main-color: #df372a;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --lbl-font: 1.45rem;
+    --p-font: 1.1rem;
+    --sm-font: 0.85rem;
+}
+
+.portfolio-detail .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 16px;
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+}
+
+.project-box {
+    flex: 1 1 55%;
+    color: var(--text-color);
+}
+
+.container .title {
+    font-size: var(--h2-font);
+    margin-bottom: 0.5rem;
+    color: var(--main-color);
+}
+
+.project-box .subtitle {
+    font-size: var(--lbl-font);
+    margin-bottom: 1rem;
+    color: var(--second-color);
+}
+
+.project-meta {
+    margin-bottom: 1rem;
+}
+
+.label-app {
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: var(--sm-font);
+    font-weight: 600;
+    display: inline-block;
+}
+
+.project-date,
+.tech-used {
+    display: block;
+    font-size: var(--sm-font);
+    color: var(--second-color);
+    margin-bottom: 0.3rem;
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: var(--p-font);
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.description p {
+    text-indent: 2rem;
+}
+
+.description ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+.description ul li {
+    position: relative;
+    padding: 1rem 1rem 1rem 2.5rem; 
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #f8f9fa;
+    border-left: 4px solid #156082;
+    border-radius: 0.5rem;
+    color: var(--main-color);
+}
+
+.description ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 1rem; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #156082;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-visit {
+    display: flex;
+    margin-top: 3.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    float: inline-end;
+    transition: all 0.3s ease 0.1s;
+}
+
+.not-available {
+    opacity: 0.5 !important;
+    cursor: no-drop;
+    pointer-events: none;
+}
+
+.btn-visit:hover {
+    background-color: #b72c21;
+    transform: scale(1.05);
+}
+
+.clear {
+    clear: both !important;
+}
+
+@media (max-width: 768px) {
+    .portfolio-detail .container {
+        flex-direction: column;
+    }
+
+    .image-box,
+    .project-box {
+        flex: 1 1 100%;
+    }
+
+    .container .title {
+        font-size: 2rem;
+    }
+
+    .container .subtitle {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/portfolio-detail.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .about{
+            display: grid;
+            grid-template-columns: none !important;
+            align-items: center;
+            gap: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+    <header>
+        <a href="#" class="logo">Rhy<span>n</span>e.</a>
+        <ul class="navlist">
+            <li><a href="../index.html" >Home</a></li>
+            <li><a href="#portofolio-detail" class="active">Portfolio</a></li>
+        </ul>
+        
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- PORTFOLIO DETAIL SECTION -->
+    <section class="portfolio-detail">
+        <div class="container">
+            <h2 class="title">SIPAJU</h2>
+            <div class="image-box">
+                <img src="../images/sipaju.png" alt="Project Image">
+            </div>
+            <div class="project-box">
+                <h4 class="subtitle">A public street lighting report and monitoring system for DISHUB Cianjur</h4>
+                <div class="project-meta">
+                    <span class="label-app">Laravel</span>
+                    <span class="label-app">JQuery</span>
+                    <span class="label-app">Bootstrap</span>
+                    <span class="label-app">MYQL</span>
+                </div>
+                <span class="project-date">Built : June 2023</span>
+                <span class="tech-used">Platform : Web App</span>
+                <br>
+                <div class="description">
+                    <p><strong>SIPAJU (Sistem Informasi Penerangan Jalan Umum)</strong> is a web-based application developed collaboratively by me and a colleague. It was built specifically for the Department of Transportation (*DISHUB*) in Cianjur as a digital solution to improve the monitoring and reporting of street lighting infrastructure.</p>
+                    <br>
+                    <p>SIPAJU is designed to assist administrators in tracking public reports regarding streetlights that are malfunctioning, missing, damaged, or even stolen. Each lamp post is equipped with a unique QR code. When scanned, this QR code directs the user to a reporting form that is pre-filled with the corresponding lamp post's location data, allowing for faster and more accurate issue submission.</p>
+                    <br>
+                    <p>Alternatively, if the QR code is unavailable, users can still submit reports manually by visiting the official SIPAJU website at 
+                    <a href="https://sipaju.cianjurkab.go.id" target="_blank">sipaju.cianjurkab.go.id</a> and navigating to the <strong>"Pelaporan Pengaduan"</strong> section. There, users can fill out a complaint form with the necessary information about the issue.</p>
+                    <br>
+                    <p>After submitting a report, users will receive a unique referral code. This code can be used to track the status of their complaint through the search feature on the website, where detailed progress updates are displayed.</p>
+                </div>
+                <a href="https://sipaju.cianjurkab.go.id/" class="btn-visit" target="_blank">Visit Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- END SECTION -->
+    <section class="end" id="end">
+        <div class="last-text">
+            <p>Copyright &copy; 2022 by <span>Luhung Lugina</span> All Rights Reserved. </p>
+        </div>  
+
+        <div class="top">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </section>
+
+    <!-- JS LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>
